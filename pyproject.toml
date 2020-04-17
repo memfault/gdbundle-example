@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "gdbundle-example"
-version = "0.0.1"
-description = ""
+version = "0.0.2"
+description = "Example gdbundle plugin"
 authors = ["Tyler Hoffman <tyler@memfault.com>"]
 readme = "README.md"
 include = ["gdbundle_example/scripts/*"]
@@ -25,6 +25,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "*"
+gdbundle = "~=0.0.1"
 
 [build-system]
 requires = ["poetry>=0.12"]
